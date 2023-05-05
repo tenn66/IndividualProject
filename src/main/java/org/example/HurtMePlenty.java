@@ -140,6 +140,7 @@ public class HurtMePlenty {
         estimate.click();
         Thread.sleep(2000);
     }
+    /*
     public void takeScreenshot(WebDriver driver) throws IOException
     {
         // Create the screenshot object
@@ -154,4 +155,6 @@ public class HurtMePlenty {
         FileUtils.copyFile(source, destination);
         System.out.println("Screenshot taken and saved to: " + source + "  --->  "+ destination);
     }
+
+     */
 }

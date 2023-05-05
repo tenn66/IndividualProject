@@ -76,7 +76,7 @@ public class HurtMePlentyTest {
     @Test(groups = {"smoke"}, priority = 12)
     public void closeDriver() throws InterruptedException {
         homepage.closeDrive();
-    }
+    }/*
     @AfterMethod(groups = {"smoke"})
     void takeScreenshotOnFailure(ITestResult result) {
         if (result.getStatus() == ITestResult.FAILURE) {
@@ -96,6 +96,7 @@ public class HurtMePlentyTest {
             }
         }
     }
+    */
 
     /*
     @Test
