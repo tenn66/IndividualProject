@@ -15,7 +15,7 @@
                     <include name="AddEstimate"/>
                 </methods>
             </class>
-            <class name="org.example.ICanWinTest"></class>
+
         </classes>
     </test>
 </suite>
