@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
-              <span class="suite-name border-passed">Surefire suite</span>
+              <span class="suite-name border-failed">Surefire suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,90 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">14 methods,   14 passed</span>
+                    <span class="method-stats">14 methods, 1 failed,  12 skipped,  1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods failed suite-Surefire_suite"> (hide)</a> <!-- hide-methods failed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods failed suite-Surefire_suite"> (show)</a> <!-- show-methods failed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Surefire_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.example.HurtMePlentyTest" class="method navigator-link" hash-for-method="environment">environment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Surefire_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods skipped suite-Surefire_suite"> (hide)</a> <!-- hide-methods skipped suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods skipped suite-Surefire_suite"> (show)</a> <!-- show-methods skipped suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Surefire_suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.example.HurtMePlentyTest" class="method navigator-link" hash-for-method="Estimate">Estimate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.example.HurtMePlentyTest" class="method navigator-link" hash-for-method="GPU">GPU</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.example.HurtMePlentyTest" class="method navigator-link" hash-for-method="Instance_Type">Instance_Type</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.example.HurtMePlentyTest" class="method navigator-link" hash-for-method="Local_SSD">Local_SSD</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.example.HurtMePlentyTest" class="method navigator-link" hash-for-method="Location">Location</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.example.HurtMePlentyTest" class="method navigator-link" hash-for-method="NoOfInstance">NoOfInstance</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.example.HurtMePlentyTest" class="method navigator-link" hash-for-method="OS">OS</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.example.HurtMePlentyTest" class="method navigator-link" hash-for-method="Series">Series</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.example.HurtMePlentyTest" class="method navigator-link" hash-for-method="VM_Class">VM_Class</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.example.HurtMePlentyTest" class="method navigator-link" hash-for-method="closeDriver">closeDriver</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.example.HurtMePlentyTest" class="method navigator-link" hash-for-method="homePageTest">homePageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.example.HurtMePlentyTest" class="method navigator-link" hash-for-method="usage">usage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Surefire_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,72 +186,7 @@
                     <div class="method-list-content passed suite-Surefire_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="org.example.HurtMePlentyTest" class="method navigator-link" hash-for-method="Estimate">Estimate</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="org.example.HurtMePlentyTest" class="method navigator-link" hash-for-method="GPU">GPU</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="org.example.HurtMePlentyTest" class="method navigator-link" hash-for-method="Instance_Type">Instance_Type</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="org.example.HurtMePlentyTest" class="method navigator-link" hash-for-method="Local_SSD">Local_SSD</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="org.example.HurtMePlentyTest" class="method navigator-link" hash-for-method="Location">Location</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Surefire_suite" title="org.example.ICanWinTest" class="method navigator-link" hash-for-method="NewPaste">NewPaste</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="org.example.HurtMePlentyTest" class="method navigator-link" hash-for-method="NoOfInstance">NoOfInstance</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="org.example.HurtMePlentyTest" class="method navigator-link" hash-for-method="OS">OS</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="org.example.HurtMePlentyTest" class="method navigator-link" hash-for-method="Series">Series</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="org.example.HurtMePlentyTest" class="method navigator-link" hash-for-method="VM_Class">VM_Class</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="org.example.HurtMePlentyTest" class="method navigator-link" hash-for-method="closeDriver">closeDriver</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="org.example.HurtMePlentyTest" class="method navigator-link" hash-for-method="environment">environment</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="org.example.HurtMePlentyTest" class="method navigator-link" hash-for-method="homePageTest">homePageTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="org.example.HurtMePlentyTest" class="method navigator-link" hash-for-method="usage">usage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Surefire_suite -->
@@ -183,9 +201,48 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
-          <div class="suite-Surefire_suite-class-passed">
+          <div class="suite-Surefire_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
+              <span class="class-name">org.example.HurtMePlentyTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="environment">
+                  </a> <!-- environment -->
+                  <span class="method-name">environment</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=112.0.5615.137)
+Build info: version: &apos;4.8.2&apos;, revision: &apos;826dbfc730&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.2.1&apos;, java.version: &apos;19.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d072eddade54ae9741b7dbb4a4181695, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.137, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: /var/folders/k1/bv83b81n7c1...}, goog:chromeOptions: {debuggerAddress: localhost:59173}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:59173/devtoo..., se:cdpVersion: 112.0.5615.137, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d072eddade54ae9741b7dbb4a4181695
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:953)
+	at com.browser.FactoryBrowser.setupBrowser(FactoryBrowser.java:19)
+	at org.example.HurtMePlentyTest.environment(HurtMePlentyTest.java:25)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
               <span class="class-name">org.example.HurtMePlentyTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -194,6 +251,11 @@
                   <a name="Estimate">
                   </a> <!-- Estimate -->
                   <span class="method-name">Estimate</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)&quot; because &quot;screenshot&quot; is null
+	at org.example.HurtMePlentyTest.takeScreenshotOnFailure(HurtMePlentyTest.java:86)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -201,6 +263,11 @@
                   <a name="GPU">
                   </a> <!-- GPU -->
                   <span class="method-name">GPU</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)&quot; because &quot;screenshot&quot; is null
+	at org.example.HurtMePlentyTest.takeScreenshotOnFailure(HurtMePlentyTest.java:86)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -208,6 +275,11 @@
                   <a name="Instance_Type">
                   </a> <!-- Instance_Type -->
                   <span class="method-name">Instance_Type</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)&quot; because &quot;screenshot&quot; is null
+	at org.example.HurtMePlentyTest.takeScreenshotOnFailure(HurtMePlentyTest.java:86)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -215,6 +287,11 @@
                   <a name="Local_SSD">
                   </a> <!-- Local_SSD -->
                   <span class="method-name">Local_SSD</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)&quot; because &quot;screenshot&quot; is null
+	at org.example.HurtMePlentyTest.takeScreenshotOnFailure(HurtMePlentyTest.java:86)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -222,6 +299,11 @@
                   <a name="Location">
                   </a> <!-- Location -->
                   <span class="method-name">Location</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)&quot; because &quot;screenshot&quot; is null
+	at org.example.HurtMePlentyTest.takeScreenshotOnFailure(HurtMePlentyTest.java:86)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -229,6 +311,11 @@
                   <a name="NoOfInstance">
                   </a> <!-- NoOfInstance -->
                   <span class="method-name">NoOfInstance</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)&quot; because &quot;screenshot&quot; is null
+	at org.example.HurtMePlentyTest.takeScreenshotOnFailure(HurtMePlentyTest.java:86)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -236,6 +323,11 @@
                   <a name="OS">
                   </a> <!-- OS -->
                   <span class="method-name">OS</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)&quot; because &quot;screenshot&quot; is null
+	at org.example.HurtMePlentyTest.takeScreenshotOnFailure(HurtMePlentyTest.java:86)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -243,6 +335,11 @@
                   <a name="Series">
                   </a> <!-- Series -->
                   <span class="method-name">Series</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)&quot; because &quot;screenshot&quot; is null
+	at org.example.HurtMePlentyTest.takeScreenshotOnFailure(HurtMePlentyTest.java:86)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -250,6 +347,11 @@
                   <a name="VM_Class">
                   </a> <!-- VM_Class -->
                   <span class="method-name">VM_Class</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)&quot; because &quot;screenshot&quot; is null
+	at org.example.HurtMePlentyTest.takeScreenshotOnFailure(HurtMePlentyTest.java:86)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -257,13 +359,11 @@
                   <a name="closeDriver">
                   </a> <!-- closeDriver -->
                   <span class="method-name">closeDriver</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="environment">
-                  </a> <!-- environment -->
-                  <span class="method-name">environment</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)&quot; because &quot;screenshot&quot; is null
+	at org.example.HurtMePlentyTest.takeScreenshotOnFailure(HurtMePlentyTest.java:86)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -271,6 +371,11 @@
                   <a name="homePageTest">
                   </a> <!-- homePageTest -->
                   <span class="method-name">homePageTest</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)&quot; because &quot;screenshot&quot; is null
+	at org.example.HurtMePlentyTest.takeScreenshotOnFailure(HurtMePlentyTest.java:86)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -278,10 +383,15 @@
                   <a name="usage">
                   </a> <!-- usage -->
                   <span class="method-name">usage</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)&quot; because &quot;screenshot&quot; is null
+	at org.example.HurtMePlentyTest.takeScreenshotOnFailure(HurtMePlentyTest.java:86)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Surefire_suite-class-passed -->
+          </div> <!-- suite-Surefire_suite-class-skipped -->
           <div class="suite-Surefire_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -419,66 +529,66 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(14);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'homePageTest')
-data.setCell(0, 2, 'org.example.HurtMePlentyTest')
-data.setCell(0, 3, 26100);
+data.setCell(0, 1, 'NewPaste')
+data.setCell(0, 2, 'org.example.ICanWinTest')
+data.setCell(0, 3, 15850);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'NewPaste')
-data.setCell(1, 2, 'org.example.ICanWinTest')
-data.setCell(1, 3, 14214);
+data.setCell(1, 1, 'environment')
+data.setCell(1, 2, 'org.example.HurtMePlentyTest')
+data.setCell(1, 3, 7554);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'GPU')
+data.setCell(2, 1, 'homePageTest')
 data.setCell(2, 2, 'org.example.HurtMePlentyTest')
-data.setCell(2, 3, 12653);
+data.setCell(2, 3, 1);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'environment')
+data.setCell(3, 1, 'NoOfInstance')
 data.setCell(3, 2, 'org.example.HurtMePlentyTest')
-data.setCell(3, 3, 8851);
+data.setCell(3, 3, 0);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'NoOfInstance')
+data.setCell(4, 1, 'OS')
 data.setCell(4, 2, 'org.example.HurtMePlentyTest')
-data.setCell(4, 3, 6291);
+data.setCell(4, 3, 0);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'OS')
+data.setCell(5, 1, 'Instance_Type')
 data.setCell(5, 2, 'org.example.HurtMePlentyTest')
-data.setCell(5, 3, 4223);
+data.setCell(5, 3, 0);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'Series')
+data.setCell(6, 1, 'Estimate')
 data.setCell(6, 2, 'org.example.HurtMePlentyTest')
-data.setCell(6, 3, 4219);
+data.setCell(6, 3, 0);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'Local_SSD')
 data.setCell(7, 2, 'org.example.HurtMePlentyTest')
-data.setCell(7, 3, 4216);
+data.setCell(7, 3, 0);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'usage')
+data.setCell(8, 1, 'VM_Class')
 data.setCell(8, 2, 'org.example.HurtMePlentyTest')
-data.setCell(8, 3, 4214);
+data.setCell(8, 3, 0);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'Location')
+data.setCell(9, 1, 'GPU')
 data.setCell(9, 2, 'org.example.HurtMePlentyTest')
-data.setCell(9, 3, 4205);
+data.setCell(9, 3, 0);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'VM_Class')
+data.setCell(10, 1, 'closeDriver')
 data.setCell(10, 2, 'org.example.HurtMePlentyTest')
-data.setCell(10, 3, 4203);
+data.setCell(10, 3, 0);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'Instance_Type')
+data.setCell(11, 1, 'usage')
 data.setCell(11, 2, 'org.example.HurtMePlentyTest')
-data.setCell(11, 3, 4196);
+data.setCell(11, 3, 0);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'Estimate')
+data.setCell(12, 1, 'Series')
 data.setCell(12, 2, 'org.example.HurtMePlentyTest')
-data.setCell(12, 3, 2235);
+data.setCell(12, 3, 0);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'closeDriver')
+data.setCell(13, 1, 'Location')
 data.setCell(13, 2, 'org.example.HurtMePlentyTest')
-data.setCell(13, 3, 369);
+data.setCell(13, 3, 0);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 23 seconds</span>
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
@@ -511,115 +621,119 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">NewPaste</span>
-                <span class="method-start">7841 ms</span>
+                <span class="method-start">10117 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">org.example.HurtMePlentyTest</div> <!-- chronological-class-name -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">environment</span>
-                <span class="method-start">22064 ms</span>
+                <span class="method-start">26036 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">takeScreenshotOnFailure([TestResult name=environment status=SUCCESS method=HurtMePlentyTest.environment()[pri:1, instance:or...)</span>
-                <span class="method-start">30917 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">takeScreenshotOnFailure([TestResult name=environment status=FAILURE method=HurtMePlentyTest.environment()[pri:1, instance:or...)</span>
+                <span class="method-start">33606 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">homePageTest</span>
-                <span class="method-start">30925 ms</span>
+                <span class="method-start">33646 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">takeScreenshotOnFailure([TestResult name=homePageTest status=SUCCESS method=HurtMePlentyTest.homePageTest()[pri:2, instance:...)</span>
-                <span class="method-start">57026 ms</span>
+                <span class="method-name">takeScreenshotOnFailure</span>
+                <span class="method-start">33647 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">NoOfInstance</span>
-                <span class="method-start">57028 ms</span>
+                <span class="method-start">33649 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">takeScreenshotOnFailure([TestResult name=NoOfInstance status=SUCCESS method=HurtMePlentyTest.NoOfInstance()[pri:3, instance:...)</span>
-                <span class="method-start">63320 ms</span>
+                <span class="method-name">takeScreenshotOnFailure</span>
+                <span class="method-start">33650 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">OS</span>
-                <span class="method-start">63324 ms</span>
+                <span class="method-start">33651 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">takeScreenshotOnFailure([TestResult name=OS status=SUCCESS method=HurtMePlentyTest.OS()[pri:4, instance:org.example.HurtMePl...)</span>
-                <span class="method-start">67548 ms</span>
+                <span class="method-name">takeScreenshotOnFailure</span>
+                <span class="method-start">33651 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshotOnFailure</span>
+                <span class="method-start">33652 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">VM_Class</span>
-                <span class="method-start">67550 ms</span>
+                <span class="method-start">33652 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">takeScreenshotOnFailure([TestResult name=VM_Class status=SUCCESS method=HurtMePlentyTest.VM_Class()[pri:5, instance:org.exam...)</span>
-                <span class="method-start">71754 ms</span>
-              </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">Series</span>
-                <span class="method-start">71756 ms</span>
+                <span class="method-start">33653 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">takeScreenshotOnFailure([TestResult name=Series status=SUCCESS method=HurtMePlentyTest.Series()[pri:6, instance:org.example....)</span>
-                <span class="method-start">75976 ms</span>
+                <span class="method-name">takeScreenshotOnFailure</span>
+                <span class="method-start">33654 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshotOnFailure</span>
+                <span class="method-start">33654 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">Instance_Type</span>
-                <span class="method-start">75978 ms</span>
+                <span class="method-start">33654 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">takeScreenshotOnFailure([TestResult name=Instance_Type status=SUCCESS method=HurtMePlentyTest.Instance_Type()[pri:7, instanc...)</span>
-                <span class="method-start">80175 ms</span>
+                <span class="method-name">takeScreenshotOnFailure</span>
+                <span class="method-start">33655 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">GPU</span>
-                <span class="method-start">80177 ms</span>
+                <span class="method-start">33655 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">takeScreenshotOnFailure([TestResult name=GPU status=SUCCESS method=HurtMePlentyTest.GPU()[pri:8, instance:org.example.HurtMe...)</span>
-                <span class="method-start">92832 ms</span>
-              </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">Local_SSD</span>
-                <span class="method-start">92834 ms</span>
+                <span class="method-start">33656 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">takeScreenshotOnFailure([TestResult name=Local_SSD status=SUCCESS method=HurtMePlentyTest.Local_SSD()[pri:9, instance:org.ex...)</span>
-                <span class="method-start">97051 ms</span>
+                <span class="method-name">takeScreenshotOnFailure</span>
+                <span class="method-start">33656 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshotOnFailure</span>
+                <span class="method-start">33657 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">Location</span>
-                <span class="method-start">97053 ms</span>
+                <span class="method-start">33657 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">takeScreenshotOnFailure([TestResult name=Location status=SUCCESS method=HurtMePlentyTest.Location()[pri:10, instance:org.exa...)</span>
-                <span class="method-start">101259 ms</span>
-              </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">usage</span>
-                <span class="method-start">101261 ms</span>
+                <span class="method-start">33658 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">takeScreenshotOnFailure([TestResult name=usage status=SUCCESS method=HurtMePlentyTest.usage()[pri:11, instance:org.example.H...)</span>
-                <span class="method-start">105476 ms</span>
+                <span class="method-name">takeScreenshotOnFailure</span>
+                <span class="method-start">33658 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">Estimate</span>
-                <span class="method-start">105478 ms</span>
+                <span class="method-start">33659 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">takeScreenshotOnFailure([TestResult name=Estimate status=SUCCESS method=HurtMePlentyTest.Estimate()[pri:12, instance:org.exa...)</span>
-                <span class="method-start">107714 ms</span>
+                <span class="method-name">takeScreenshotOnFailure</span>
+                <span class="method-start">33659 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshotOnFailure</span>
+                <span class="method-start">33660 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">closeDriver</span>
-                <span class="method-start">107716 ms</span>
+                <span class="method-start">33660 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">takeScreenshotOnFailure([TestResult name=closeDriver status=SUCCESS method=HurtMePlentyTest.closeDriver()[pri:12, instance:o...)</span>
-                <span class="method-start">108085 ms</span>
-              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

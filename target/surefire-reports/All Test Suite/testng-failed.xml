@@ -1,15 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
-  <test thread-count="5" name="/Users/tenzinwangmo/IdeaProjects/untitled/src/test/java/org/example/Hurt_Me_PlentyTest.java(failed)" verbose="0">
+  <test thread-count="5" name="/Users/tenzinwangmo/IdeaProjects/untitled/src/test/java/org/example/HurtMePlentyTest.java(failed)" verbose="0">
+    <groups>
+      <run>
+        <include name="functional"/>
+        <include name="smoke"/>
+      </run>
+    </groups>
     <classes>
-      <class name="org.example.Hurt_Me_PlentyTest">
+      <class name="org.example.HurtMePlentyTest">
         <methods>
-          <include name="search"/>
+          <include name="usage"/>
+          <include name="Location"/>
+          <include name="Instance_Type"/>
+          <include name="GPU"/>
+          <include name="homePageTest"/>
+          <include name="takeScreenshotOnFailure"/>
+          <include name="Local_SSD"/>
+          <include name="Series"/>
+          <include name="NoOfInstance"/>
           <include name="Estimate"/>
-          <include name="setupDriver"/>
+          <include name="OS"/>
+          <include name="VM_Class"/>
         </methods>
-      </class> <!-- org.example.Hurt_Me_PlentyTest -->
+      </class> <!-- org.example.HurtMePlentyTest -->
     </classes>
-  </test> <!-- /Users/tenzinwangmo/IdeaProjects/untitled/src/test/java/org/example/Hurt_Me_PlentyTest.java(failed) -->
+  </test> <!-- /Users/tenzinwangmo/IdeaProjects/untitled/src/test/java/org/example/HurtMePlentyTest.java(failed) -->
 </suite> <!-- Failed suite [All Test Suite] -->
