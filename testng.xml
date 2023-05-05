@@ -11,6 +11,9 @@
         </groups>
         <classes>
             <class name="org.example.HurtMePlentyTest">
+                <methods>
+                    <include name="AddEstimate"/>
+                </methods>
             </class>
         </classes>
     </test>
