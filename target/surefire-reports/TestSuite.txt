@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 27, Failures: 2, Errors: 0, Skipped: 24, Time elapsed: 34.465 s <<< FAILURE! - in TestSuite
-environment(org.example.HurtMePlentyTest)  Time elapsed: 7.502 s  <<< FAILURE!
+Tests run: 27, Failures: 3, Errors: 0, Skipped: 24, Time elapsed: 12.594 s <<< FAILURE! - in TestSuite
+NewPaste(org.example.ICanWinTest)  Time elapsed: 4.228 s  <<< FAILURE!
 org.openqa.selenium.NoSuchWindowException: 
 no such window: target window already closed
 from unknown error: web view not found
@@ -10,12 +10,25 @@ from unknown error: web view not found
 Build info: version: '4.8.2', revision: '826dbfc730'
 System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.2.1', java.version: '19.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d072eddade54ae9741b7dbb4a4181695, maximizeCurrentWindow {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.137, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: /var/folders/k1/bv83b81n7c1...}, goog:chromeOptions: {debuggerAddress: localhost:59173}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:59173/devtoo..., se:cdpVersion: 112.0.5615.137, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d072eddade54ae9741b7dbb4a4181695
+Command: [c01b29204436145767770dfba5a8507b, findElement {using=xpath, value=//span[@id='select2-postform-expiration-container']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.137, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: /var/folders/k1/bv83b81n7c1...}, goog:chromeOptions: {debuggerAddress: localhost:58442}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:58442/devtoo..., se:cdpVersion: 112.0.5615.137, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c01b29204436145767770dfba5a8507b
+	at org.example.ICanWinTest.NewPaste(ICanWinTest.java:23)
+
+environment(org.example.HurtMePlentyTest)  Time elapsed: 2.778 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=112.0.5615.137)
+Build info: version: '4.8.2', revision: '826dbfc730'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.2.1', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ac92162495cf6671e2c94d71a5b96829, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.137, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: /var/folders/k1/bv83b81n7c1...}, goog:chromeOptions: {debuggerAddress: localhost:58556}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:58556/devtoo..., se:cdpVersion: 112.0.5615.137, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ac92162495cf6671e2c94d71a5b96829
 	at org.example.HurtMePlentyTest.environment(HurtMePlentyTest.java:25)
 
-takeScreenshotOnFailure(org.example.HurtMePlentyTest)  Time elapsed: 7.502 s  <<< FAILURE!
+takeScreenshotOnFailure(org.example.HurtMePlentyTest)  Time elapsed: 2.783 s  <<< FAILURE!
 java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "screenshot" is null
 	at org.example.HurtMePlentyTest.takeScreenshotOnFailure(HurtMePlentyTest.java:86)
 

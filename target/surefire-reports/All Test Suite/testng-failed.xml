@@ -11,18 +11,20 @@
     <classes>
       <class name="org.example.HurtMePlentyTest">
         <methods>
-          <include name="usage"/>
-          <include name="Location"/>
-          <include name="Instance_Type"/>
           <include name="GPU"/>
-          <include name="homePageTest"/>
+          <include name="Instance_Type"/>
           <include name="takeScreenshotOnFailure"/>
-          <include name="Local_SSD"/>
-          <include name="Series"/>
+          <include name="homePageTest"/>
           <include name="NoOfInstance"/>
           <include name="Estimate"/>
           <include name="OS"/>
+          <include name="usage"/>
+          <include name="Location"/>
+          <include name="environment"/>
+          <include name="Local_SSD"/>
+          <include name="Series"/>
           <include name="VM_Class"/>
+          <include name="closeDriver"/>
         </methods>
       </class> <!-- org.example.HurtMePlentyTest -->
     </classes>

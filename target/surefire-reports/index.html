@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">14 methods, 1 failed,  12 skipped,  1 passed</span>
+                    <span class="method-stats">14 methods, 2 failed,  12 skipped,  </span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -101,6 +101,11 @@
                       <a href="#" panel-name="suite-Surefire_suite" class="show-methods failed suite-Surefire_suite"> (show)</a> <!-- show-methods failed suite-Surefire_suite -->
                     </span>
                     <div class="method-list-content failed suite-Surefire_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.example.ICanWinTest" class="method navigator-link" hash-for-method="NewPaste">NewPaste</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-Surefire_suite" title="org.example.HurtMePlentyTest" class="method navigator-link" hash-for-method="environment">environment</a> <!-- method navigator-link -->
@@ -177,20 +182,6 @@
                       <br/>
                     </div> <!-- method-list-content skipped suite-Surefire_suite -->
                   </li>
-                  <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
-                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
-                    </span>
-                    <div class="method-list-content passed suite-Surefire_suite">
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="org.example.ICanWinTest" class="method navigator-link" hash-for-method="NewPaste">NewPaste</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content passed suite-Surefire_suite -->
-                  </li>
                 </ul>
               </div> <!-- suite-section-content -->
             </div> <!-- result-section -->
@@ -218,9 +209,9 @@ from unknown error: web view not found
 Build info: version: &apos;4.8.2&apos;, revision: &apos;826dbfc730&apos;
 System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.2.1&apos;, java.version: &apos;19.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d072eddade54ae9741b7dbb4a4181695, maximizeCurrentWindow {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.137, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: /var/folders/k1/bv83b81n7c1...}, goog:chromeOptions: {debuggerAddress: localhost:59173}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:59173/devtoo..., se:cdpVersion: 112.0.5615.137, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d072eddade54ae9741b7dbb4a4181695
+Command: [ac92162495cf6671e2c94d71a5b96829, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.137, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: /var/folders/k1/bv83b81n7c1...}, goog:chromeOptions: {debuggerAddress: localhost:58556}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:58556/devtoo..., se:cdpVersion: 112.0.5615.137, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ac92162495cf6671e2c94d71a5b96829
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
@@ -233,6 +224,46 @@ Session ID: d072eddade54ae9741b7dbb4a4181695
 	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:953)
 	at com.browser.FactoryBrowser.setupBrowser(FactoryBrowser.java:19)
 	at org.example.HurtMePlentyTest.environment(HurtMePlentyTest.java:25)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">org.example.ICanWinTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="NewPaste">
+                  </a> <!-- NewPaste -->
+                  <span class="method-name">NewPaste</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=112.0.5615.137)
+Build info: version: &apos;4.8.2&apos;, revision: &apos;826dbfc730&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.2.1&apos;, java.version: &apos;19.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c01b29204436145767770dfba5a8507b, findElement {using=xpath, value=//span[@id=&apos;select2-postform-expiration-container&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.137, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: /var/folders/k1/bv83b81n7c1...}, goog:chromeOptions: {debuggerAddress: localhost:58442}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:58442/devtoo..., se:cdpVersion: 112.0.5615.137, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c01b29204436145767770dfba5a8507b
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.example.ICanWin.pasteExpiration(ICanWin.java:32)
+	at org.example.ICanWinTest.NewPaste(ICanWinTest.java:23)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 33 stack frames
 </div> <!-- stack-trace -->
@@ -392,21 +423,6 @@ Session ID: d072eddade54ae9741b7dbb4a4181695
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Surefire_suite-class-skipped -->
-          <div class="suite-Surefire_suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">org.example.ICanWinTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="NewPaste">
-                  </a> <!-- NewPaste -->
-                  <span class="method-name">NewPaste</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Surefire_suite-class-passed -->
         </div> <!-- panel Surefire_suite -->
         <div panel-name="test-xml-Surefire_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -531,49 +547,49 @@ data.addRows(14);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'NewPaste')
 data.setCell(0, 2, 'org.example.ICanWinTest')
-data.setCell(0, 3, 15850);
+data.setCell(0, 3, 4209);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'environment')
 data.setCell(1, 2, 'org.example.HurtMePlentyTest')
-data.setCell(1, 3, 7554);
+data.setCell(1, 3, 2778);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'homePageTest')
+data.setCell(2, 1, 'Local_SSD')
 data.setCell(2, 2, 'org.example.HurtMePlentyTest')
-data.setCell(2, 3, 1);
+data.setCell(2, 3, 0);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'NoOfInstance')
+data.setCell(3, 1, 'Location')
 data.setCell(3, 2, 'org.example.HurtMePlentyTest')
 data.setCell(3, 3, 0);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'OS')
+data.setCell(4, 1, 'Estimate')
 data.setCell(4, 2, 'org.example.HurtMePlentyTest')
 data.setCell(4, 3, 0);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'Instance_Type')
+data.setCell(5, 1, 'GPU')
 data.setCell(5, 2, 'org.example.HurtMePlentyTest')
 data.setCell(5, 3, 0);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'Estimate')
+data.setCell(6, 1, 'homePageTest')
 data.setCell(6, 2, 'org.example.HurtMePlentyTest')
 data.setCell(6, 3, 0);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'Local_SSD')
+data.setCell(7, 1, 'Instance_Type')
 data.setCell(7, 2, 'org.example.HurtMePlentyTest')
 data.setCell(7, 3, 0);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'VM_Class')
+data.setCell(8, 1, 'OS')
 data.setCell(8, 2, 'org.example.HurtMePlentyTest')
 data.setCell(8, 3, 0);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'GPU')
+data.setCell(9, 1, 'closeDriver')
 data.setCell(9, 2, 'org.example.HurtMePlentyTest')
 data.setCell(9, 3, 0);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'closeDriver')
+data.setCell(10, 1, 'NoOfInstance')
 data.setCell(10, 2, 'org.example.HurtMePlentyTest')
 data.setCell(10, 3, 0);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'usage')
+data.setCell(11, 1, 'VM_Class')
 data.setCell(11, 2, 'org.example.HurtMePlentyTest')
 data.setCell(11, 3, 0);
 data.setCell(12, 0, 12)
@@ -581,14 +597,14 @@ data.setCell(12, 1, 'Series')
 data.setCell(12, 2, 'org.example.HurtMePlentyTest')
 data.setCell(12, 3, 0);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'Location')
+data.setCell(13, 1, 'usage')
 data.setCell(13, 2, 'org.example.HurtMePlentyTest')
 data.setCell(13, 3, 0);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 23 seconds</span>
+              <span class="suite-total-time">Total running time: 6 seconds</span>
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
@@ -620,8 +636,10 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">NewPaste</span>
-                <span class="method-start">10117 ms</span>
+                <span class="method-start">4933 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -630,109 +648,109 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">environment</span>
-                <span class="method-start">26036 ms</span>
+                <span class="method-start">9161 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">takeScreenshotOnFailure([TestResult name=environment status=FAILURE method=HurtMePlentyTest.environment()[pri:1, instance:or...)</span>
-                <span class="method-start">33606 ms</span>
+                <span class="method-start">11941 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">homePageTest</span>
-                <span class="method-start">33646 ms</span>
+                <span class="method-start">11954 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">takeScreenshotOnFailure</span>
-                <span class="method-start">33647 ms</span>
+                <span class="method-start">11956 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshotOnFailure</span>
+                <span class="method-start">11958 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">NoOfInstance</span>
-                <span class="method-start">33649 ms</span>
+                <span class="method-start">11958 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">takeScreenshotOnFailure</span>
-                <span class="method-start">33650 ms</span>
+                <span class="method-start">11959 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">OS</span>
-                <span class="method-start">33651 ms</span>
+                <span class="method-start">11959 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">takeScreenshotOnFailure</span>
-                <span class="method-start">33651 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method after">
-                <span class="method-name">takeScreenshotOnFailure</span>
-                <span class="method-start">33652 ms</span>
+                <span class="method-start">11960 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">VM_Class</span>
-                <span class="method-start">33652 ms</span>
+                <span class="method-start">11960 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshotOnFailure</span>
+                <span class="method-start">11961 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">Series</span>
-                <span class="method-start">33653 ms</span>
+                <span class="method-start">11961 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">takeScreenshotOnFailure</span>
-                <span class="method-start">33654 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method after">
-                <span class="method-name">takeScreenshotOnFailure</span>
-                <span class="method-start">33654 ms</span>
-              </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">Instance_Type</span>
-                <span class="method-start">33654 ms</span>
+                <span class="method-start">11962 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">takeScreenshotOnFailure</span>
-                <span class="method-start">33655 ms</span>
+                <span class="method-start">11963 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">GPU</span>
-                <span class="method-start">33655 ms</span>
+                <span class="method-start">11963 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshotOnFailure</span>
+                <span class="method-start">11963 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">Local_SSD</span>
-                <span class="method-start">33656 ms</span>
+                <span class="method-start">11964 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">takeScreenshotOnFailure</span>
-                <span class="method-start">33656 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method after">
-                <span class="method-name">takeScreenshotOnFailure</span>
-                <span class="method-start">33657 ms</span>
+                <span class="method-start">11964 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">Location</span>
-                <span class="method-start">33657 ms</span>
+                <span class="method-start">11965 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">usage</span>
-                <span class="method-start">33658 ms</span>
+                <span class="method-start">11966 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">takeScreenshotOnFailure</span>
-                <span class="method-start">33658 ms</span>
+                <span class="method-start">11966 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshotOnFailure</span>
+                <span class="method-start">11967 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshotOnFailure</span>
+                <span class="method-start">11968 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">Estimate</span>
-                <span class="method-start">33659 ms</span>
+                <span class="method-start">11968 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">takeScreenshotOnFailure</span>
-                <span class="method-start">33659 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method after">
-                <span class="method-name">takeScreenshotOnFailure</span>
-                <span class="method-start">33660 ms</span>
+                <span class="method-start">11969 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">closeDriver</span>
-                <span class="method-start">33660 ms</span>
+                <span class="method-start">11969 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

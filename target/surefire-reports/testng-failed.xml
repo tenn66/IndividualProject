@@ -5,15 +5,15 @@
     <classes>
       <class name="org.example.HurtMePlentyTest">
         <methods>
-          <include name="Instance_Type"/>
           <include name="GPU"/>
+          <include name="Instance_Type"/>
           <include name="takeScreenshotOnFailure"/>
           <include name="homePageTest"/>
           <include name="Estimate"/>
           <include name="NoOfInstance"/>
           <include name="OS"/>
-          <include name="usage"/>
           <include name="Location"/>
+          <include name="usage"/>
           <include name="environment"/>
           <include name="Local_SSD"/>
           <include name="Series"/>
@@ -21,6 +21,12 @@
           <include name="closeDriver"/>
         </methods>
       </class> <!-- org.example.HurtMePlentyTest -->
+      <class name="org.example.ICanWinTest">
+        <methods>
+          <include name="NewPaste"/>
+          <include name="setupDriver"/>
+        </methods>
+      </class> <!-- org.example.ICanWinTest -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->
