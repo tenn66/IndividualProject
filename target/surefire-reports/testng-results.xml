@@ -2,7 +2,7 @@
 <testng-results ignored="0" total="14" passed="0" failed="2" skipped="12">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-06T16:37:33 IST" name="Surefire suite" finished-at="2023-05-06T16:37:45 IST" duration-ms="11987">
+  <suite started-at="2023-05-06T17:04:26 IST" name="Surefire suite" finished-at="2023-05-06T17:04:42 IST" duration-ms="16238">
     <groups>
       <group name="functional">
         <method signature="HurtMePlentyTest.environment()[pri:1, instance:org.example.HurtMePlentyTest@971d0d8]" name="environment" class="org.example.HurtMePlentyTest"/>
@@ -24,13 +24,13 @@
         <method signature="HurtMePlentyTest.closeDriver()[pri:12, instance:org.example.HurtMePlentyTest@971d0d8]" name="closeDriver" class="org.example.HurtMePlentyTest"/>
       </group> <!-- smoke -->
     </groups>
-    <test started-at="2023-05-06T16:37:33 IST" name="Surefire test" finished-at="2023-05-06T16:37:45 IST" duration-ms="11987">
+    <test started-at="2023-05-06T17:04:26 IST" name="Surefire test" finished-at="2023-05-06T17:04:42 IST" duration-ms="16238">
       <class name="org.example.ICanWinTest">
-        <test-method is-config="true" signature="setupDriver()[pri:0, instance:org.example.ICanWinTest@255b53dc]" started-at="2023-05-06T16:37:33 IST" name="setupDriver" finished-at="2023-05-06T16:37:38 IST" duration-ms="4922" status="PASS">
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:org.example.ICanWinTest@255b53dc]" started-at="2023-05-06T17:04:26 IST" name="setupDriver" finished-at="2023-05-06T17:04:30 IST" duration-ms="4782" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupDriver -->
-        <test-method signature="NewPaste()[pri:1, instance:org.example.ICanWinTest@255b53dc]" started-at="2023-05-06T16:37:38 IST" name="NewPaste" finished-at="2023-05-06T16:37:42 IST" duration-ms="4209" status="FAIL">
+        <test-method signature="NewPaste()[pri:1, instance:org.example.ICanWinTest@255b53dc]" started-at="2023-05-06T17:04:30 IST" name="NewPaste" finished-at="2023-05-06T17:04:35 IST" duration-ms="4282" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
               <![CDATA[no such window: target window already closed
@@ -39,9 +39,9 @@ from unknown error: web view not found
 Build info: version: '4.8.2', revision: '826dbfc730'
 System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.2.1', java.version: '19.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c01b29204436145767770dfba5a8507b, findElement {using=xpath, value=//span[@id='select2-postform-expiration-container']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.137, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: /var/folders/k1/bv83b81n7c1...}, goog:chromeOptions: {debuggerAddress: localhost:58442}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:58442/devtoo..., se:cdpVersion: 112.0.5615.137, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c01b29204436145767770dfba5a8507b]]>
+Command: [8fb582716441f5182d45cf9ef7ac87eb, findElement {using=xpath, value=//span[@id='select2-postform-expiration-container']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.137, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: /var/folders/k1/bv83b81n7c1...}, goog:chromeOptions: {debuggerAddress: localhost:59998}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:59998/devtoo..., se:cdpVersion: 112.0.5615.137, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8fb582716441f5182d45cf9ef7ac87eb]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
@@ -50,9 +50,9 @@ from unknown error: web view not found
 Build info: version: '4.8.2', revision: '826dbfc730'
 System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.2.1', java.version: '19.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c01b29204436145767770dfba5a8507b, findElement {using=xpath, value=//span[@id='select2-postform-expiration-container']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.137, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: /var/folders/k1/bv83b81n7c1...}, goog:chromeOptions: {debuggerAddress: localhost:58442}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:58442/devtoo..., se:cdpVersion: 112.0.5615.137, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c01b29204436145767770dfba5a8507b
+Command: [8fb582716441f5182d45cf9ef7ac87eb, findElement {using=xpath, value=//span[@id='select2-postform-expiration-container']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.137, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: /var/folders/k1/bv83b81n7c1...}, goog:chromeOptions: {debuggerAddress: localhost:59998}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:59998/devtoo..., se:cdpVersion: 112.0.5615.137, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8fb582716441f5182d45cf9ef7ac87eb
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -108,7 +108,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
         </test-method> <!-- NewPaste -->
       </class> <!-- org.example.ICanWinTest -->
       <class name="org.example.HurtMePlentyTest">
-        <test-method signature="environment()[pri:1, instance:org.example.HurtMePlentyTest@971d0d8]" started-at="2023-05-06T16:37:42 IST" name="environment" finished-at="2023-05-06T16:37:45 IST" duration-ms="2778" status="FAIL">
+        <test-method signature="environment()[pri:1, instance:org.example.HurtMePlentyTest@971d0d8]" started-at="2023-05-06T17:04:35 IST" name="environment" finished-at="2023-05-06T17:04:42 IST" duration-ms="7023" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
               <![CDATA[no such window: target window already closed
@@ -117,9 +117,9 @@ from unknown error: web view not found
 Build info: version: '4.8.2', revision: '826dbfc730'
 System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.2.1', java.version: '19.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ac92162495cf6671e2c94d71a5b96829, maximizeCurrentWindow {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.137, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: /var/folders/k1/bv83b81n7c1...}, goog:chromeOptions: {debuggerAddress: localhost:58556}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:58556/devtoo..., se:cdpVersion: 112.0.5615.137, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ac92162495cf6671e2c94d71a5b96829]]>
+Command: [c04f604713a0e877c820fa5ca2400d21, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.137, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: /var/folders/k1/bv83b81n7c1...}, goog:chromeOptions: {debuggerAddress: localhost:60104}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:60104/devtoo..., se:cdpVersion: 112.0.5615.137, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c04f604713a0e877c820fa5ca2400d21]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
@@ -128,9 +128,9 @@ from unknown error: web view not found
 Build info: version: '4.8.2', revision: '826dbfc730'
 System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.2.1', java.version: '19.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ac92162495cf6671e2c94d71a5b96829, maximizeCurrentWindow {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.137, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: /var/folders/k1/bv83b81n7c1...}, goog:chromeOptions: {debuggerAddress: localhost:58556}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:58556/devtoo..., se:cdpVersion: 112.0.5615.137, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ac92162495cf6671e2c94d71a5b96829
+Command: [c04f604713a0e877c820fa5ca2400d21, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.137, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: /var/folders/k1/bv83b81n7c1...}, goog:chromeOptions: {debuggerAddress: localhost:60104}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:60104/devtoo..., se:cdpVersion: 112.0.5615.137, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c04f604713a0e877c820fa5ca2400d21
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -183,7 +183,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- environment -->
-        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:org.example.HurtMePlentyTest@971d0d8]" started-at="2023-05-06T16:37:45 IST" name="takeScreenshotOnFailure" finished-at="2023-05-06T16:37:45 IST" duration-ms="3" status="FAIL">
+        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:org.example.HurtMePlentyTest@971d0d8]" started-at="2023-05-06T17:04:42 IST" name="takeScreenshotOnFailure" finished-at="2023-05-06T17:04:42 IST" duration-ms="27" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -240,7 +240,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenshotOnFailure -->
-        <test-method signature="homePageTest()[pri:2, instance:org.example.HurtMePlentyTest@971d0d8]" started-at="2023-05-06T16:37:45 IST" name="homePageTest" finished-at="2023-05-06T16:37:45 IST" duration-ms="0" status="SKIP">
+        <test-method signature="homePageTest()[pri:2, instance:org.example.HurtMePlentyTest@971d0d8]" started-at="2023-05-06T17:04:42 IST" name="homePageTest" finished-at="2023-05-06T17:04:42 IST" duration-ms="0" status="SKIP">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "screenshot" is null]]>
@@ -290,11 +290,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePageTest -->
-        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:org.example.HurtMePlentyTest@971d0d8]" started-at="2023-05-06T16:37:45 IST" name="takeScreenshotOnFailure" finished-at="2023-05-06T16:37:45 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:org.example.HurtMePlentyTest@971d0d8]" started-at="2023-05-06T17:04:42 IST" name="takeScreenshotOnFailure" finished-at="2023-05-06T17:04:42 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenshotOnFailure -->
-        <test-method signature="NoOfInstance()[pri:3, instance:org.example.HurtMePlentyTest@971d0d8]" started-at="2023-05-06T16:37:45 IST" name="NoOfInstance" finished-at="2023-05-06T16:37:45 IST" duration-ms="0" status="SKIP">
+        <test-method signature="NoOfInstance()[pri:3, instance:org.example.HurtMePlentyTest@971d0d8]" started-at="2023-05-06T17:04:42 IST" name="NoOfInstance" finished-at="2023-05-06T17:04:42 IST" duration-ms="0" status="SKIP">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "screenshot" is null]]>
@@ -344,11 +344,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NoOfInstance -->
-        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:org.example.HurtMePlentyTest@971d0d8]" started-at="2023-05-06T16:37:45 IST" name="takeScreenshotOnFailure" finished-at="2023-05-06T16:37:45 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:org.example.HurtMePlentyTest@971d0d8]" started-at="2023-05-06T17:04:42 IST" name="takeScreenshotOnFailure" finished-at="2023-05-06T17:04:42 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenshotOnFailure -->
-        <test-method signature="OS()[pri:4, instance:org.example.HurtMePlentyTest@971d0d8]" started-at="2023-05-06T16:37:45 IST" name="OS" finished-at="2023-05-06T16:37:45 IST" duration-ms="0" status="SKIP">
+        <test-method signature="OS()[pri:4, instance:org.example.HurtMePlentyTest@971d0d8]" started-at="2023-05-06T17:04:42 IST" name="OS" finished-at="2023-05-06T17:04:42 IST" duration-ms="0" status="SKIP">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "screenshot" is null]]>
@@ -398,11 +398,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OS -->
-        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:org.example.HurtMePlentyTest@971d0d8]" started-at="2023-05-06T16:37:45 IST" name="takeScreenshotOnFailure" finished-at="2023-05-06T16:37:45 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:org.example.HurtMePlentyTest@971d0d8]" started-at="2023-05-06T17:04:42 IST" name="takeScreenshotOnFailure" finished-at="2023-05-06T17:04:42 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenshotOnFailure -->
-        <test-method signature="VM_Class()[pri:5, instance:org.example.HurtMePlentyTest@971d0d8]" started-at="2023-05-06T16:37:45 IST" name="VM_Class" finished-at="2023-05-06T16:37:45 IST" duration-ms="0" status="SKIP">
+        <test-method signature="VM_Class()[pri:5, instance:org.example.HurtMePlentyTest@971d0d8]" started-at="2023-05-06T17:04:42 IST" name="VM_Class" finished-at="2023-05-06T17:04:42 IST" duration-ms="0" status="SKIP">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "screenshot" is null]]>
@@ -452,11 +452,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VM_Class -->
-        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:org.example.HurtMePlentyTest@971d0d8]" started-at="2023-05-06T16:37:45 IST" name="takeScreenshotOnFailure" finished-at="2023-05-06T16:37:45 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:org.example.HurtMePlentyTest@971d0d8]" started-at="2023-05-06T17:04:42 IST" name="takeScreenshotOnFailure" finished-at="2023-05-06T17:04:42 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenshotOnFailure -->
-        <test-method signature="Series()[pri:6, instance:org.example.HurtMePlentyTest@971d0d8]" started-at="2023-05-06T16:37:45 IST" name="Series" finished-at="2023-05-06T16:37:45 IST" duration-ms="0" status="SKIP">
+        <test-method signature="Series()[pri:6, instance:org.example.HurtMePlentyTest@971d0d8]" started-at="2023-05-06T17:04:42 IST" name="Series" finished-at="2023-05-06T17:04:42 IST" duration-ms="0" status="SKIP">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "screenshot" is null]]>
@@ -506,11 +506,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Series -->
-        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:org.example.HurtMePlentyTest@971d0d8]" started-at="2023-05-06T16:37:45 IST" name="takeScreenshotOnFailure" finished-at="2023-05-06T16:37:45 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:org.example.HurtMePlentyTest@971d0d8]" started-at="2023-05-06T17:04:42 IST" name="takeScreenshotOnFailure" finished-at="2023-05-06T17:04:42 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenshotOnFailure -->
-        <test-method signature="Instance_Type()[pri:7, instance:org.example.HurtMePlentyTest@971d0d8]" started-at="2023-05-06T16:37:45 IST" name="Instance_Type" finished-at="2023-05-06T16:37:45 IST" duration-ms="0" status="SKIP">
+        <test-method signature="Instance_Type()[pri:7, instance:org.example.HurtMePlentyTest@971d0d8]" started-at="2023-05-06T17:04:42 IST" name="Instance_Type" finished-at="2023-05-06T17:04:42 IST" duration-ms="0" status="SKIP">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "screenshot" is null]]>
@@ -560,7 +560,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Instance_Type -->
-        <test-method signature="GPU()[pri:8, instance:org.example.HurtMePlentyTest@971d0d8]" started-at="2023-05-06T16:37:45 IST" name="GPU" finished-at="2023-05-06T16:37:45 IST" duration-ms="0" status="SKIP">
+        <test-method signature="GPU()[pri:8, instance:org.example.HurtMePlentyTest@971d0d8]" started-at="2023-05-06T17:04:42 IST" name="GPU" finished-at="2023-05-06T17:04:42 IST" duration-ms="0" status="SKIP">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "screenshot" is null]]>
@@ -610,15 +610,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GPU -->
-        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:org.example.HurtMePlentyTest@971d0d8]" started-at="2023-05-06T16:37:45 IST" name="takeScreenshotOnFailure" finished-at="2023-05-06T16:37:45 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:org.example.HurtMePlentyTest@971d0d8]" started-at="2023-05-06T17:04:42 IST" name="takeScreenshotOnFailure" finished-at="2023-05-06T17:04:42 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenshotOnFailure -->
-        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:org.example.HurtMePlentyTest@971d0d8]" started-at="2023-05-06T16:37:45 IST" name="takeScreenshotOnFailure" finished-at="2023-05-06T16:37:45 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- takeScreenshotOnFailure -->
-        <test-method signature="Local_SSD()[pri:9, instance:org.example.HurtMePlentyTest@971d0d8]" started-at="2023-05-06T16:37:45 IST" name="Local_SSD" finished-at="2023-05-06T16:37:45 IST" duration-ms="0" status="SKIP">
+        <test-method signature="Local_SSD()[pri:9, instance:org.example.HurtMePlentyTest@971d0d8]" started-at="2023-05-06T17:04:42 IST" name="Local_SSD" finished-at="2023-05-06T17:04:42 IST" duration-ms="0" status="SKIP">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "screenshot" is null]]>
@@ -668,11 +664,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Local_SSD -->
-        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:org.example.HurtMePlentyTest@971d0d8]" started-at="2023-05-06T16:37:45 IST" name="takeScreenshotOnFailure" finished-at="2023-05-06T16:37:45 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:org.example.HurtMePlentyTest@971d0d8]" started-at="2023-05-06T17:04:42 IST" name="takeScreenshotOnFailure" finished-at="2023-05-06T17:04:42 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenshotOnFailure -->
-        <test-method signature="Location()[pri:10, instance:org.example.HurtMePlentyTest@971d0d8]" started-at="2023-05-06T16:37:45 IST" name="Location" finished-at="2023-05-06T16:37:45 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:org.example.HurtMePlentyTest@971d0d8]" started-at="2023-05-06T17:04:42 IST" name="takeScreenshotOnFailure" finished-at="2023-05-06T17:04:42 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFailure -->
+        <test-method signature="Location()[pri:10, instance:org.example.HurtMePlentyTest@971d0d8]" started-at="2023-05-06T17:04:42 IST" name="Location" finished-at="2023-05-06T17:04:42 IST" duration-ms="0" status="SKIP">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "screenshot" is null]]>
@@ -722,7 +722,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Location -->
-        <test-method signature="usage()[pri:11, instance:org.example.HurtMePlentyTest@971d0d8]" started-at="2023-05-06T16:37:45 IST" name="usage" finished-at="2023-05-06T16:37:45 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:org.example.HurtMePlentyTest@971d0d8]" started-at="2023-05-06T17:04:42 IST" name="takeScreenshotOnFailure" finished-at="2023-05-06T17:04:42 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFailure -->
+        <test-method signature="usage()[pri:11, instance:org.example.HurtMePlentyTest@971d0d8]" started-at="2023-05-06T17:04:42 IST" name="usage" finished-at="2023-05-06T17:04:42 IST" duration-ms="0" status="SKIP">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "screenshot" is null]]>
@@ -772,15 +776,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- usage -->
-        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:org.example.HurtMePlentyTest@971d0d8]" started-at="2023-05-06T16:37:45 IST" name="takeScreenshotOnFailure" finished-at="2023-05-06T16:37:45 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:org.example.HurtMePlentyTest@971d0d8]" started-at="2023-05-06T17:04:42 IST" name="takeScreenshotOnFailure" finished-at="2023-05-06T17:04:42 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenshotOnFailure -->
-        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:org.example.HurtMePlentyTest@971d0d8]" started-at="2023-05-06T16:37:45 IST" name="takeScreenshotOnFailure" finished-at="2023-05-06T16:37:45 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- takeScreenshotOnFailure -->
-        <test-method signature="Estimate()[pri:12, instance:org.example.HurtMePlentyTest@971d0d8]" started-at="2023-05-06T16:37:45 IST" name="Estimate" finished-at="2023-05-06T16:37:45 IST" duration-ms="0" status="SKIP">
+        <test-method signature="Estimate()[pri:12, instance:org.example.HurtMePlentyTest@971d0d8]" started-at="2023-05-06T17:04:42 IST" name="Estimate" finished-at="2023-05-06T17:04:42 IST" duration-ms="0" status="SKIP">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "screenshot" is null]]>
@@ -830,11 +830,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Estimate -->
-        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:org.example.HurtMePlentyTest@971d0d8]" started-at="2023-05-06T16:37:45 IST" name="takeScreenshotOnFailure" finished-at="2023-05-06T16:37:45 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:org.example.HurtMePlentyTest@971d0d8]" started-at="2023-05-06T17:04:42 IST" name="takeScreenshotOnFailure" finished-at="2023-05-06T17:04:42 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenshotOnFailure -->
-        <test-method signature="closeDriver()[pri:12, instance:org.example.HurtMePlentyTest@971d0d8]" started-at="2023-05-06T16:37:45 IST" name="closeDriver" finished-at="2023-05-06T16:37:45 IST" duration-ms="0" status="SKIP">
+        <test-method signature="closeDriver()[pri:12, instance:org.example.HurtMePlentyTest@971d0d8]" started-at="2023-05-06T17:04:42 IST" name="closeDriver" finished-at="2023-05-06T17:04:42 IST" duration-ms="0" status="SKIP">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "screenshot" is null]]>
@@ -884,7 +884,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
-        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:org.example.HurtMePlentyTest@971d0d8]" started-at="2023-05-06T16:37:45 IST" name="takeScreenshotOnFailure" finished-at="2023-05-06T16:37:45 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:org.example.HurtMePlentyTest@971d0d8]" started-at="2023-05-06T17:04:42 IST" name="takeScreenshotOnFailure" finished-at="2023-05-06T17:04:42 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenshotOnFailure -->
