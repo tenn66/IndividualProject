@@ -1,32 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
-  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="/Users/tenzinwangmo/IdeaProjects/untitled/src/test/java/org/example/HurtMePlentyTest.java(failed)" verbose="0">
     <classes>
       <class name="org.example.HurtMePlentyTest">
         <methods>
+          <include name="usage"/>
+          <include name="Location"/>
           <include name="GPU"/>
           <include name="Instance_Type"/>
           <include name="takeScreenshotOnFailure"/>
           <include name="homePageTest"/>
+          <include name="Local_SSD"/>
+          <include name="Series"/>
           <include name="Estimate"/>
           <include name="NoOfInstance"/>
           <include name="OS"/>
-          <include name="Location"/>
-          <include name="usage"/>
-          <include name="environment"/>
-          <include name="Local_SSD"/>
-          <include name="Series"/>
           <include name="VM_Class"/>
           <include name="closeDriver"/>
         </methods>
       </class> <!-- org.example.HurtMePlentyTest -->
-      <class name="org.example.ICanWinTest">
-        <methods>
-          <include name="NewPaste"/>
-          <include name="setupDriver"/>
-        </methods>
-      </class> <!-- org.example.ICanWinTest -->
     </classes>
-  </test> <!-- Surefire test(failed) -->
-</suite> <!-- Failed suite [Surefire suite] -->
+  </test> <!-- /Users/tenzinwangmo/IdeaProjects/untitled/src/test/java/org/example/HurtMePlentyTest.java(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
