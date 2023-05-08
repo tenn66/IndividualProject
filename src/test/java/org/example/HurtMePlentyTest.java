@@ -80,17 +80,15 @@ public class HurtMePlentyTest {
     @AfterMethod(groups = {"smoke"})
     void takeScreenshotOnFailure(ITestResult result) {
         if (result.getStatus() == ITestResult.FAILURE) {
-            // Create the screenshot object
             TakesScreenshot screenshot = (TakesScreenshot) driver;
-            // Take the screenshot as a file
             File source = screenshot.getScreenshotAs(OutputType.FILE);
-            try { // Create a destination file with the current date and time as the filename
+            try {
                 SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd_HH-mm-ss");
                 String fileName = "screenshot" + dateFormat.format(new Date()) + ".png";
                 File destination = new File("/Users/tenzinwangmo/Desktop/JLPT" + fileName);
-                // Copy the source file to the destination file
+
                 FileUtils.copyFile(source, destination);
-                System.out.println("Screenshot taken and saved to: " + source + "  --->  " + destination);
+                System.out.println("Screenshot taken and saved to: " + source + "  ------------>  " + destination);
             } catch (IOException e) {
                 e.printStackTrace();
             }
