@@ -25,7 +25,6 @@ public class HurtMePlentyTest {
         driver = FactoryBrowser.setupBrowser("chrome","https://cloud.google.com/");
         homepage = PageFactory.initElements(driver, HomePage.class);
         hurtMePlenty = PageFactory.initElements(driver, HurtMePlenty.class);
-
     }
     @Test(groups = {"functional","smoke"}, priority = 2)
     public void homePageTest() throws InterruptedException
@@ -94,6 +93,7 @@ public class HurtMePlentyTest {
             }
         }
     }
+
 
 
     /*
